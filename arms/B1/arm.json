@@ -1,0 +1,33 @@
+{
+  "name": "B1",
+  "family": "localize-then-edit",
+  "description": "Explore-phase big swing (2026-11-08): a two-stage SequentialAgent instead of one agent loop. Stage 1, a read-only localizer with thinking off and a short call budget, finds the files, functions and lines to change, plus the targeted test command, and writes them to session state. Stage 2, the A0 fixer, starts from that report. Hypothesis: A0 spends its 6 minutes mostly exploring (18/30 timeouts in A0-r1); separating localization with a hard small budget leaves the editor its time for the fix and the test.",
+  "model": "gemma-4-31b-it-qat-w4a16-ct",
+  "tools": ["run_command", "read_file", "edit_file", "write_file", "get_status", "submit_patch", "get_code_neighbors", "search_similar_code", "get_code_subgraph"],
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_output_tokens": 8192,
+    "thinking_config": {"thinking_budget": 4096, "include_thoughts": true}
+  },
+  "pipeline": [
+    {
+      "name": "localizer",
+      "description": "Read-only analyst: finds where the fix goes and how to test it. Never edits.",
+      "tools": ["read_file", "run_command", "search_similar_code", "get_code_neighbors", "get_code_subgraph"],
+      "output_key": "localization",
+      "sampling": {"temperature": 0.1, "top_p": 0.95, "max_output_tokens": 2048, "thinking_config": {"thinking_budget": 0, "include_thoughts": false}}
+    },
+    {
+      "name": "fixer",
+      "description": "Engineer: applies the minimal fix from the localization report, runs the targeted test, submits the patch.",
+      "tools": ["run_command", "read_file", "edit_file", "write_file", "get_status", "submit_patch", "get_code_neighbors", "search_similar_code", "get_code_subgraph"]
+    }
+  ],
+  "evaluation": {
+    "timeout_seconds": 120,
+    "max_tool_calls": 40,
+    "max_time_minutes": 6,
+    "max_turns": 120
+  }
+}

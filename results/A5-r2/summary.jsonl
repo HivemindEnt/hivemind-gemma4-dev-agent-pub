@@ -1,0 +1,30 @@
+{"instance_id": "fastapi_14962", "resolved": false, "patch_chars": 1666, "tool_calls": 24, "duration_seconds": 369.634241774, "test_exit_code": 2, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "fastapi_15280", "resolved": false, "patch_chars": 0, "tool_calls": 37, "duration_seconds": 366.46914310600005, "test_exit_code": -1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "fastapi_14986", "resolved": false, "patch_chars": 1631, "tool_calls": 22, "duration_seconds": 369.52123491, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "requests_7433", "resolved": false, "patch_chars": 1111, "tool_calls": 40, "duration_seconds": 436.676532877, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_4077", "resolved": true, "patch_chars": 324, "tool_calls": 16, "duration_seconds": 230.96657549199995, "test_exit_code": 0, "error": ""}
+{"instance_id": "rich_4075", "resolved": false, "patch_chars": 526, "tool_calls": 38, "duration_seconds": 366.1978139569999, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "fastapi_13920", "resolved": false, "patch_chars": 3220, "tool_calls": 32, "duration_seconds": 321.46557469000004, "test_exit_code": 1, "error": ""}
+{"instance_id": "fastapi_14479", "resolved": false, "patch_chars": 524, "tool_calls": 13, "duration_seconds": 181.00579221099997, "test_exit_code": 1, "error": ""}
+{"instance_id": "fastapi_14463", "resolved": true, "patch_chars": 2390, "tool_calls": 13, "duration_seconds": 144.7530524409999, "test_exit_code": 0, "error": ""}
+{"instance_id": "fastapi_14099", "resolved": false, "patch_chars": 0, "tool_calls": 21, "duration_seconds": 365.14897576600015, "test_exit_code": -1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "fastapi_14487", "resolved": false, "patch_chars": 5675, "tool_calls": 32, "duration_seconds": 301.7633574859999, "test_exit_code": 1, "error": ""}
+{"instance_id": "fastapi_14485", "resolved": false, "patch_chars": 974, "tool_calls": 25, "duration_seconds": 317.574393872, "test_exit_code": 2, "error": ""}
+{"instance_id": "fastapi_14458", "resolved": true, "patch_chars": 21782, "tool_calls": 19, "duration_seconds": 266.887597315, "test_exit_code": 0, "error": ""}
+{"instance_id": "fastapi_14455", "resolved": false, "patch_chars": 3200, "tool_calls": 28, "duration_seconds": 368.3328670430001, "test_exit_code": 2, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "fastapi_14262", "resolved": false, "patch_chars": 1389, "tool_calls": 28, "duration_seconds": 368.74720972599994, "test_exit_code": 2, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "fastapi_13713", "resolved": false, "patch_chars": 0, "tool_calls": 20, "duration_seconds": 365.5230441059998, "test_exit_code": -1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_3953", "resolved": false, "patch_chars": 539, "tool_calls": 22, "duration_seconds": 365.72306704900006, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_3942", "resolved": false, "patch_chars": 0, "tool_calls": 13, "duration_seconds": 362.20742741000004, "test_exit_code": -1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_3882", "resolved": true, "patch_chars": 1659, "tool_calls": 14, "duration_seconds": 215.57410758599963, "test_exit_code": 0, "error": ""}
+{"instance_id": "fastapi_14371", "resolved": false, "patch_chars": 6065, "tool_calls": 36, "duration_seconds": 369.6883775659999, "test_exit_code": 2, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "fastapi_15763", "resolved": false, "patch_chars": 2047, "tool_calls": 33, "duration_seconds": 368.06326359900004, "test_exit_code": 1, "error": ""}
+{"instance_id": "requests_6589", "resolved": false, "patch_chars": 1000, "tool_calls": 29, "duration_seconds": 428.82734715800007, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "requests_6592", "resolved": false, "patch_chars": 579, "tool_calls": 10, "duration_seconds": 143.52439006900022, "test_exit_code": 1, "error": ""}
+{"instance_id": "rich_3486", "resolved": false, "patch_chars": 0, "tool_calls": 27, "duration_seconds": 362.7177541840001, "test_exit_code": -1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_3782", "resolved": false, "patch_chars": 654, "tool_calls": 22, "duration_seconds": 367.3145513649997, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_3772", "resolved": false, "patch_chars": 1038, "tool_calls": 22, "duration_seconds": 664.5994786879996, "test_exit_code": 124, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_3470", "resolved": false, "patch_chars": 2519, "tool_calls": 29, "duration_seconds": 365.59205751900026, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_3278", "resolved": false, "patch_chars": 1477, "tool_calls": 9, "duration_seconds": 364.7089472380003, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_2943", "resolved": false, "patch_chars": 686, "tool_calls": 16, "duration_seconds": 365.11211380999976, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_3130", "resolved": false, "patch_chars": 828, "tool_calls": 21, "duration_seconds": 219.8835056439998, "test_exit_code": 1, "error": ""}

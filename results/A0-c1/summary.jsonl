@@ -1,0 +1,12 @@
+{"instance_id": "rich_4077", "resolved": true, "patch_chars": 396, "tool_calls": 22, "duration_seconds": 151.082000548, "test_exit_code": 0, "error": ""}
+{"instance_id": "fastapi_13920", "resolved": false, "patch_chars": 4928, "tool_calls": 28, "duration_seconds": 367.0050744099999, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "fastapi_14479", "resolved": false, "patch_chars": 524, "tool_calls": 10, "duration_seconds": 87.16789971899993, "test_exit_code": 1, "error": ""}
+{"instance_id": "fastapi_14463", "resolved": true, "patch_chars": 2208, "tool_calls": 9, "duration_seconds": 131.11227465000002, "test_exit_code": 0, "error": ""}
+{"instance_id": "fastapi_14099", "resolved": false, "patch_chars": 516, "tool_calls": 28, "duration_seconds": 366.6689182109999, "test_exit_code": 2, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "fastapi_14371", "resolved": false, "patch_chars": 458, "tool_calls": 25, "duration_seconds": 230.74027664399978, "test_exit_code": 2, "error": ""}
+{"instance_id": "fastapi_15763", "resolved": false, "patch_chars": 2755, "tool_calls": 40, "duration_seconds": 301.98338318299966, "test_exit_code": 1, "error": ""}
+{"instance_id": "requests_6589", "resolved": false, "patch_chars": 439, "tool_calls": 14, "duration_seconds": 224.02487153499987, "test_exit_code": 1, "error": ""}
+{"instance_id": "rich_3486", "resolved": false, "patch_chars": 1682, "tool_calls": 34, "duration_seconds": 365.93552394200015, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_3772", "resolved": false, "patch_chars": 1866, "tool_calls": 23, "duration_seconds": 663.2575038909999, "test_exit_code": 124, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_3470", "resolved": false, "patch_chars": 1119, "tool_calls": 40, "duration_seconds": 303.4037033069999, "test_exit_code": 1, "error": ""}
+{"instance_id": "rich_2943", "resolved": true, "patch_chars": 400, "tool_calls": 25, "duration_seconds": 160.30062559499993, "test_exit_code": 0, "error": ""}

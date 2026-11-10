@@ -1,0 +1,31 @@
+{
+  "name": "A7",
+  "description": "A0 with a 3-minute per-task cap and 21 tool calls. One variable: per-task budget, the third budget-curve point after A0 (6 min / 40) and A2 (4 min / 28). Why: A2 matched A0 on dev and held-out with 27% less time, and resolved tasks average about 2.5-3 min, so 3 min tests where the cap starts cutting into successes.",
+  "model": "gemma-4-31b-it-qat-w4a16-ct",
+  "tools": [
+    "run_command",
+    "read_file",
+    "edit_file",
+    "write_file",
+    "get_status",
+    "submit_patch",
+    "get_code_neighbors",
+    "search_similar_code",
+    "get_code_subgraph"
+  ],
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_output_tokens": 8192,
+    "thinking_config": {
+      "thinking_budget": 4096,
+      "include_thoughts": true
+    }
+  },
+  "evaluation": {
+    "timeout_seconds": 120,
+    "max_tool_calls": 21,
+    "max_time_minutes": 3,
+    "max_turns": 120
+  }
+}

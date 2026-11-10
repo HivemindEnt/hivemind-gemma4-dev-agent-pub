@@ -1,0 +1,30 @@
+{"instance_id": "fastapi_14962", "resolved": false, "patch_chars": 0, "tool_calls": 34, "duration_seconds": 185.041887363, "test_exit_code": 2, "error": ""}
+{"instance_id": "fastapi_15280", "resolved": false, "patch_chars": 479, "tool_calls": 40, "duration_seconds": 161.92525781900008, "test_exit_code": 2, "error": ""}
+{"instance_id": "fastapi_14986", "resolved": false, "patch_chars": 0, "tool_calls": 39, "duration_seconds": 221.35998833199994, "test_exit_code": 1, "error": ""}
+{"instance_id": "requests_7433", "resolved": false, "patch_chars": 560, "tool_calls": 8, "duration_seconds": 157.82655344499994, "test_exit_code": 1, "error": ""}
+{"instance_id": "rich_4077", "resolved": true, "patch_chars": 324, "tool_calls": 9, "duration_seconds": 54.745575557000166, "test_exit_code": 0, "error": ""}
+{"instance_id": "rich_4075", "resolved": false, "patch_chars": 0, "tool_calls": 39, "duration_seconds": 143.11512739400018, "test_exit_code": 1, "error": ""}
+{"instance_id": "fastapi_13920", "resolved": false, "patch_chars": 409, "tool_calls": 24, "duration_seconds": 369.341004397, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "fastapi_14479", "resolved": false, "patch_chars": 2129, "tool_calls": 5, "duration_seconds": 55.085943769000096, "test_exit_code": 1, "error": ""}
+{"instance_id": "fastapi_14463", "resolved": true, "patch_chars": 2171, "tool_calls": 9, "duration_seconds": 60.19256802400014, "test_exit_code": 0, "error": ""}
+{"instance_id": "fastapi_14099", "resolved": false, "patch_chars": 0, "tool_calls": 38, "duration_seconds": 116.16323591499986, "test_exit_code": 2, "error": ""}
+{"instance_id": "fastapi_14487", "resolved": false, "patch_chars": 548, "tool_calls": 15, "duration_seconds": 282.00305738, "test_exit_code": 1, "error": ""}
+{"instance_id": "fastapi_14485", "resolved": false, "patch_chars": 0, "tool_calls": 39, "duration_seconds": 82.22142020399997, "test_exit_code": 2, "error": ""}
+{"instance_id": "fastapi_14458", "resolved": true, "patch_chars": 4298, "tool_calls": 23, "duration_seconds": 368.89070334100006, "test_exit_code": 0, "error": ""}
+{"instance_id": "fastapi_14455", "resolved": false, "patch_chars": 4185, "tool_calls": 36, "duration_seconds": 175.96441384399986, "test_exit_code": 2, "error": ""}
+{"instance_id": "fastapi_14262", "resolved": false, "patch_chars": 0, "tool_calls": 39, "duration_seconds": 248.068964283, "test_exit_code": 2, "error": ""}
+{"instance_id": "fastapi_13713", "resolved": false, "patch_chars": 0, "tool_calls": 40, "duration_seconds": 234.05165314500005, "test_exit_code": 2, "error": ""}
+{"instance_id": "rich_3953", "resolved": false, "patch_chars": 3260, "tool_calls": 27, "duration_seconds": 365.3882655949999, "test_exit_code": 1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_3942", "resolved": false, "patch_chars": 0, "tool_calls": 34, "duration_seconds": 364.224555452, "test_exit_code": -1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "rich_3882", "resolved": false, "patch_chars": 0, "tool_calls": 7, "duration_seconds": 363.3205873290001, "test_exit_code": -1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "fastapi_14371", "resolved": false, "patch_chars": 0, "tool_calls": 37, "duration_seconds": 288.061993173, "test_exit_code": 2, "error": ""}
+{"instance_id": "fastapi_15763", "resolved": false, "patch_chars": 1615, "tool_calls": 39, "duration_seconds": 297.3158638499999, "test_exit_code": 1, "error": ""}
+{"instance_id": "requests_6589", "resolved": false, "patch_chars": 0, "tool_calls": 30, "duration_seconds": 361.7344664719999, "test_exit_code": -1, "error": "Agent exceeded session timeout (6.0 min)"}
+{"instance_id": "requests_6592", "resolved": false, "patch_chars": 579, "tool_calls": 5, "duration_seconds": 89.70289146899972, "test_exit_code": 1, "error": ""}
+{"instance_id": "rich_3486", "resolved": false, "patch_chars": 1461, "tool_calls": 33, "duration_seconds": 252.1188867950002, "test_exit_code": 1, "error": ""}
+{"instance_id": "rich_3782", "resolved": false, "patch_chars": 0, "tool_calls": 38, "duration_seconds": 250.85631394099983, "test_exit_code": 1, "error": ""}
+{"instance_id": "rich_3772", "resolved": false, "patch_chars": 396, "tool_calls": 38, "duration_seconds": 544.4146385499998, "test_exit_code": 124, "error": ""}
+{"instance_id": "rich_3470", "resolved": false, "patch_chars": 0, "tool_calls": 38, "duration_seconds": 154.56887416300015, "test_exit_code": 1, "error": ""}
+{"instance_id": "rich_3278", "resolved": false, "patch_chars": 346, "tool_calls": 15, "duration_seconds": 101.35523626999975, "test_exit_code": 1, "error": ""}
+{"instance_id": "rich_2943", "resolved": true, "patch_chars": 1161, "tool_calls": 22, "duration_seconds": 96.02957343100024, "test_exit_code": 0, "error": ""}
+{"instance_id": "rich_3130", "resolved": false, "patch_chars": 1200, "tool_calls": 9, "duration_seconds": 36.032211634000305, "test_exit_code": 1, "error": ""}

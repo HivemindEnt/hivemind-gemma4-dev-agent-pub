@@ -1,0 +1,39 @@
+{
+  "name": "B2",
+  "description": "Explore-phase swing (2026-11-08): A0 plus repo field guides as ADK skills. One guide per known repo (built from the dev split only: where fixes land, source->test pairs, test command, traps) and new-repo-guide, which derives a guide at run time for a repo with no guide (scripts/scout.py, inheriting the shared patterns). Hypothesis: most A0 time goes to orientation; a guide cuts it, and the traps cut wrong-place and test-tampering failures.",
+  "model": "gemma-4-31b-it-qat-w4a16-ct",
+  "tools": [
+    "run_command",
+    "read_file",
+    "edit_file",
+    "write_file",
+    "get_status",
+    "submit_patch",
+    "get_code_neighbors",
+    "search_similar_code",
+    "get_code_subgraph"
+  ],
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_output_tokens": 8192,
+    "thinking_config": {
+      "thinking_budget": 4096,
+      "include_thoughts": true
+    }
+  },
+  "evaluation": {
+    "timeout_seconds": 120,
+    "max_tool_calls": 40,
+    "max_time_minutes": 6,
+    "max_turns": 120
+  },
+  "family": "repo-field-guides",
+  "skills": [
+    "fastapi-guide",
+    "rich-guide",
+    "requests-guide",
+    "httpx-guide",
+    "new-repo-guide"
+  ]
+}

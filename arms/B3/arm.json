@@ -1,0 +1,35 @@
+{
+  "name": "B3",
+  "description": "Explore-phase swing (2026-11-08): A0 plus a deterministic pre-submit gate (patch-check skill, scripts/precheck.py: non-empty diff, no protected test file touched, changed files compile, targeted test per changed module). Hypothesis: 59% of A0 task-runs ended with a patch that failed verification; a hard check before submit converts some of those.",
+  "model": "gemma-4-31b-it-qat-w4a16-ct",
+  "tools": [
+    "run_command",
+    "read_file",
+    "edit_file",
+    "write_file",
+    "get_status",
+    "submit_patch",
+    "get_code_neighbors",
+    "search_similar_code",
+    "get_code_subgraph"
+  ],
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_output_tokens": 8192,
+    "thinking_config": {
+      "thinking_budget": 4096,
+      "include_thoughts": true
+    }
+  },
+  "evaluation": {
+    "timeout_seconds": 120,
+    "max_tool_calls": 40,
+    "max_time_minutes": 6,
+    "max_turns": 120
+  },
+  "family": "verify-gate",
+  "skills": [
+    "patch-check"
+  ]
+}

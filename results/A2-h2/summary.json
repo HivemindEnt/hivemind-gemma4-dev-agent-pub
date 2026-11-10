@@ -1,0 +1,14 @@
+{
+  "arm": "A2",
+  "tag": "h2",
+  "model": "gemma-4-31b-it-qat-w4a16-ct",
+  "n": 47,
+  "resolved": 9,
+  "rate": 0.19148936170212766,
+  "no_patch": 13,
+  "eval_seconds": 2876,
+  "server_start_seconds": 400,
+  "install_to_end_seconds": 3381,
+  "concurrency": 4,
+  "task_seconds_mean": 238.01174225776597
+}

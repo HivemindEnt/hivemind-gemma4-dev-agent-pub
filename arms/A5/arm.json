@@ -1,0 +1,31 @@
+{
+  "name": "A5",
+  "description": "A0 with thinking_budget 1536 instead of 4096. One variable: thinking budget. Why: A0 (4096) mostly runs out of time (18/30 timeouts); A1 (thinking off) mostly runs out of tool calls (10/30 finish with no patch near the 40-call cap). A middle budget tests whether the trade-off has an interior optimum.",
+  "model": "gemma-4-31b-it-qat-w4a16-ct",
+  "tools": [
+    "run_command",
+    "read_file",
+    "edit_file",
+    "write_file",
+    "get_status",
+    "submit_patch",
+    "get_code_neighbors",
+    "search_similar_code",
+    "get_code_subgraph"
+  ],
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_output_tokens": 8192,
+    "thinking_config": {
+      "thinking_budget": 1536,
+      "include_thoughts": true
+    }
+  },
+  "evaluation": {
+    "timeout_seconds": 120,
+    "max_tool_calls": 40,
+    "max_time_minutes": 6,
+    "max_turns": 120
+  }
+}

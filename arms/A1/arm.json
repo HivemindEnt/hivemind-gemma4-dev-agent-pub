@@ -1,0 +1,31 @@
+{
+  "name": "A1",
+  "description": "A0 with thinking off (thinking_budget 0, include_thoughts false). One variable: reasoning visibility/budget. Community report: 9/12 vs 7/12 with thinking off on a 12-task test.",
+  "model": "gemma-4-31b-it-qat-w4a16-ct",
+  "tools": [
+    "run_command",
+    "read_file",
+    "edit_file",
+    "write_file",
+    "get_status",
+    "submit_patch",
+    "get_code_neighbors",
+    "search_similar_code",
+    "get_code_subgraph"
+  ],
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_output_tokens": 8192,
+    "thinking_config": {
+      "thinking_budget": 0,
+      "include_thoughts": false
+    }
+  },
+  "evaluation": {
+    "timeout_seconds": 120,
+    "max_tool_calls": 40,
+    "max_time_minutes": 6,
+    "max_turns": 120
+  }
+}

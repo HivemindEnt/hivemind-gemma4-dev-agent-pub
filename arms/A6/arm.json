@@ -1,0 +1,31 @@
+{
+  "name": "A6",
+  "description": "A5 (thinking_budget 1536) combined with A2 limits (4 min, 28 tool calls). Why: A2 matched A0 on dev and held-out with 27% less time; A5 is the best dev arm (7/30). If their effects add up, A6 is the prediction-track candidate: A5 accuracy at A2 cost.",
+  "model": "gemma-4-31b-it-qat-w4a16-ct",
+  "tools": [
+    "run_command",
+    "read_file",
+    "edit_file",
+    "write_file",
+    "get_status",
+    "submit_patch",
+    "get_code_neighbors",
+    "search_similar_code",
+    "get_code_subgraph"
+  ],
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_output_tokens": 8192,
+    "thinking_config": {
+      "thinking_budget": 1536,
+      "include_thoughts": true
+    }
+  },
+  "evaluation": {
+    "timeout_seconds": 120,
+    "max_tool_calls": 28,
+    "max_time_minutes": 4,
+    "max_turns": 120
+  }
+}

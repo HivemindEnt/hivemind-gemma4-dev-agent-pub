@@ -1,0 +1,35 @@
+{
+  "name": "C2",
+  "description": "Explore-phase swing (2026-11-08): one-call localisation. A0 plus the locate skill as the mandatory first call. Measured: resolved A0 tasks made their first edit after a median of 2-6 tool calls, unresolved ones after 10-13. locate ranks files against the issue in one call (offline: gold file top-1 51%, top-3 77%, top-5 83% on the 47 held-out tasks; dev 47/72/79%). Hypothesis: fewer search calls leaves time to fix and submit.",
+  "model": "gemma-4-31b-it-qat-w4a16-ct",
+  "tools": [
+    "run_command",
+    "read_file",
+    "edit_file",
+    "write_file",
+    "get_status",
+    "submit_patch",
+    "get_code_neighbors",
+    "search_similar_code",
+    "get_code_subgraph"
+  ],
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_output_tokens": 8192,
+    "thinking_config": {
+      "thinking_budget": 4096,
+      "include_thoughts": true
+    }
+  },
+  "evaluation": {
+    "timeout_seconds": 120,
+    "max_tool_calls": 40,
+    "max_time_minutes": 6,
+    "max_turns": 120
+  },
+  "family": "one-call-localisation",
+  "skills": [
+    "locate"
+  ]
+}
